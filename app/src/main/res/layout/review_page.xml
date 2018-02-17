@@ -12,44 +12,60 @@
         android:id="@+id/editText2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="37dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="48dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Review"
-        tools:layout_editor_absoluteX="53dp"
-        tools:layout_editor_absoluteY="48dp" />
+        app:layout_constraintEnd_toEndOf="@+id/imageButton10"
+        app:layout_constraintStart_toStartOf="@+id/imageButton6"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
         android:id="@+id/imageButton6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="36dp"
         android:icon="@drawable/smile_face"
-        app:srcCompat="@mipmap/ic_launcher_foreground"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="130dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText2"
+        app:srcCompat="@mipmap/ic_launcher_foreground" />
 
 
     <ImageButton
         android:id="@+id/imageButton10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:icon="@drawable/cry_face"
+        android:layout_marginBottom="18dp"
 
+        android:layout_marginStart="27dp"
+        android:icon="@drawable/cry_face"
+        app:layout_constraintBottom_toTopOf="@+id/editText"
+        app:layout_constraintStart_toEndOf="@+id/imageButton6"
         app:srcCompat="@mipmap/ic_launcher_foreground" />
 
     <EditText
         android:id="@+id/editText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="37dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="18dp"
         android:ems="10"
         android:inputType="textMultiLine"
-        tools:layout_editor_absoluteX="53dp"
-        tools:layout_editor_absoluteY="276dp" />
+        app:layout_constraintEnd_toEndOf="@+id/imageButton10"
+        app:layout_constraintStart_toStartOf="@+id/imageButton6"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton6" />
 
     <Button
         android:id="@+id/Submit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
         android:text="Submit"
-        tools:layout_editor_absoluteX="116dp"
-        tools:layout_editor_absoluteY="336dp" />
+        app:layout_constraintEnd_toEndOf="@+id/editText"
+        app:layout_constraintStart_toStartOf="@+id/editText"
+        app:layout_constraintTop_toBottomOf="@+id/editText" />
 </android.support.constraint.ConstraintLayout>
