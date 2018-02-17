@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     tools:context="uottahack.waiting_room.MainActivity">
 
-<<<<<<< HEAD
 
     <Button
         android:id='@+id/scan_button'
@@ -17,8 +16,6 @@
         tools:layout_editor_absoluteX="119dp"
         tools:layout_editor_absoluteY="231dp" />
 
-
-=======
     <TextView
         android:id="@+id/textView"
         android:layout_width="0dp"
@@ -31,7 +28,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
->>>>>>> 3ea57ef934d569a161e42197b67be58598b75157
 
     <TextView
         android:id="@+id/textView2"
