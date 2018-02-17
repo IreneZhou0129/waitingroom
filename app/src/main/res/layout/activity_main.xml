@@ -9,33 +9,51 @@
 
 
     <Button
-        android:id='@+id/scan_button'
+        android:id="@+id/QR"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
+<<<<<<< HEAD
         android:layout_marginBottom="44dp"
         android:text="Scan QR Code"
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
+=======
+        android:layout_marginBottom="64dp"
+        android:text="Scan QR Code"
+        app:layout_constraintBottom_toTopOf="@+id/cancel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/peopleLeft" />
+>>>>>>> 1dc29bc5a3db68ca1b78ff1b8a32acf2244353f9
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/waitTime"
         android:layout_width="0dp"
         android:layout_height="0dp"
+<<<<<<< HEAD
         android:layout_marginBottom="411dp"
         android:layout_marginTop="17dp"
         android:text="WAITING TIME: "
         android:textAlignment="center"
         app:layout_constraintBottom_toTopOf="@+id/reviewPageButton"
+=======
+        android:layout_marginBottom="75dp"
+        android:layout_marginTop="16dp"
+        android:text="WAITING TIME: "
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/peopleLeft"
+>>>>>>> 1dc29bc5a3db68ca1b78ff1b8a32acf2244353f9
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/peopleLeft"
         android:layout_width="0dp"
+<<<<<<< HEAD
         android:layout_height="112dp"
         android:text="People left: "
         android:textAlignment="center"
@@ -43,11 +61,22 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+=======
+        android:layout_height="0dp"
+        android:layout_marginBottom="98dp"
+        android:text="People left: "
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/QR"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/waitTime" />
+>>>>>>> 1dc29bc5a3db68ca1b78ff1b8a32acf2244353f9
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/cancel"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:layout_marginBottom="115dp"
         android:text="cancel"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -65,4 +94,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
+=======
+        android:layout_marginBottom="120dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginStart="1dp"
+        android:text="cancel  "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/QR" />
+>>>>>>> 1dc29bc5a3db68ca1b78ff1b8a32acf2244353f9
 </android.support.constraint.ConstraintLayout>
