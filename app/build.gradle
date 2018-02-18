@@ -11,6 +11,11 @@ android {
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         android.defaultConfig.vectorDrawables.useSupportLibrary = true
     }
+    repositories {
+        maven {
+            url 'https://dl.bintray.com/spark/maven'
+        }
+    }
     buildTypes {
         release {
             minifyEnabled false
@@ -31,6 +36,7 @@ android {
         androidTestImplementation 'com.android.support.test:runner:1.0.1'
         androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
         compile 'com.sackcentury:shinebutton:0.2.0'
+        compile 'com.github.dimorinny:floating-text-button:0.0.4'
     }
 }
 
@@ -42,4 +48,5 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
     compile 'com.google.android.gms:play-services-vision:11.8.0'
+    compile 'me.spark:submitbutton:1.0.1'
 }
