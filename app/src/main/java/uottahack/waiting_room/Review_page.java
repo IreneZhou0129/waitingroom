@@ -5,14 +5,16 @@ import android.support.v7.app.AppCompatActivity;
 import android.widget.Button;
 import android.widget.EditText;
 
+import ru.dimorinny.floatingtextbutton.FloatingTextButton;
+
 /**
  * Created by xiaoxinzhou on 2018-02-17.
  */
 
-public abstract class Review_page extends AppCompatActivity {
+public class Review_page extends AppCompatActivity {
     EditText title_review;
     EditText comments_review;
-    Button b_submit_review;
+    FloatingTextButton b_submit_review;
 
     @Override
     protected void onCreate(Bundle savedInstanceState){

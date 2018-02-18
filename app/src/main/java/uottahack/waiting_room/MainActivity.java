@@ -14,13 +14,15 @@ import android.widget.TextView;
 
 import com.google.android.gms.vision.barcode.Barcode;
 
+import ru.dimorinny.floatingtextbutton.FloatingTextButton;
+
 public class MainActivity extends AppCompatActivity {
-    Button scanButton;
+    FloatingTextButton scanButton;
     TextView result;
     public static final int REQUEST_CODE = 100;
     public static final int PERMISSION_REQUEST = 200;
-    Button cancel_button;
-    Button review_button;
+    FloatingTextButton cancel_button;
+    FloatingTextButton review_button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
