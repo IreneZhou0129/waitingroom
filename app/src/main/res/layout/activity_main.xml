@@ -54,13 +54,6 @@
         android:id="@+id/peopleLeft"
         android:layout_width="0dp"
         android:layout_height="0dp"
-<<<<<<< HEAD
-        android:layout_marginBottom="24dp"
-        android:layout_marginTop="279dp"
-        android:text="People left: "
-        android:textAlignment="center"
-        app:layout_constraintBottom_toTopOf="@+id/result"
-=======
         android:layout_marginBottom="60dp"
         android:layout_marginStart="0dp"
         android:fontFamily="@font/abeezee"
@@ -68,7 +61,6 @@
         android:textAlignment="center"
         android:textColor="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/cancel"
->>>>>>> b4a648d4b968c97135e24d2766780e7d4ad37dc2
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -80,17 +72,12 @@
         android:id="@+id/cancel"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-<<<<<<< HEAD
-        android:layout_marginBottom="41dp"
-        android:text="cancel appointment"
-=======
         android:layout_marginBottom="81dp"
         android:layout_marginStart="122dp"
         app:floating_background_color="@color/colorPrimary"
         app:floating_left_icon="@drawable/cancel_icon"
         app:floating_title="Cancel"
         app:floating_title_color="@android:color/white"
->>>>>>> b4a648d4b968c97135e24d2766780e7d4ad37dc2
         app:layout_constraintBottom_toTopOf="@+id/reviewPageButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
