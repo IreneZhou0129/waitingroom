@@ -19,11 +19,18 @@
             </intent-filter>
         </activity>
 
+<<<<<<< HEAD
         <meta-data
             android:name="com.google.android.gms.vision.DEPENDENCIES"
             android:value="barcode" />
 
         <activity android:name=".CodeScanner"></activity>
+=======
+        <meta-data android:name="com.google.android.gms.vision.DEPENDENCIES" android:value="barcode"/>
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+>>>>>>> b4a648d4b968c97135e24d2766780e7d4ad37dc2
     </application>
 
 </manifest>
