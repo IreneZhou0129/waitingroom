@@ -75,7 +75,7 @@ public class CodeScanner extends AppCompatActivity {
 
             @Override
             public void receiveDetections(Detector.Detections<Barcode> detections) {
-                final SparseArray<Barcode> barcodes = detections.getDetectedItems();
+                final SparseArray<Barcode>barcodes = detections.getDetectedItems();
                 if (barcodes.size() > 0) {
                     Intent intent = new Intent();
                     intent.putExtra("barcode", barcodes.valueAt(0));

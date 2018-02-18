@@ -16,27 +16,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="50dp"
-        android:layout_marginTop="131dp"
+        android:layout_marginBottom="70dp"
+        android:layout_marginTop="43dp"
         app:floating_background_color="@color/colorPrimary"
         app:floating_left_icon="@drawable/qr_icon"
         app:floating_title="Scan QR Code"
         app:floating_title_color="@android:color/white"
-        app:layout_constraintBottom_toTopOf="@+id/peopleLeft"
+        app:layout_constraintBottom_toTopOf="@+id/result"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/result"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="170dp"
-        android:text="Result"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/peopleLeft" />
 
 
     <TextView
@@ -51,11 +40,10 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/peopleLeft"
+        android:id="@+id/result"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginBottom="60dp"
-        android:layout_marginStart="0dp"
+        android:layout_marginBottom="51dp"
         android:fontFamily="@font/abeezee"
         android:text="People left: "
         android:textAlignment="center"
@@ -63,25 +51,24 @@
         app:layout_constraintBottom_toTopOf="@+id/cancel"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/QR" />
 
 
     // cancel button
 
     <ru.dimorinny.floatingtextbutton.FloatingTextButton
         android:id="@+id/cancel"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="81dp"
-        android:layout_marginStart="122dp"
+        android:layout_width="238dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="51dp"
+        android:layout_marginRight="16dp"
         app:floating_background_color="@color/colorPrimary"
         app:floating_left_icon="@drawable/cancel_icon"
         app:floating_title="Cancel"
         app:floating_title_color="@android:color/white"
         app:layout_constraintBottom_toTopOf="@+id/reviewPageButton"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/peopleLeft" />
+        app:layout_constraintTop_toBottomOf="@+id/result" />
 
 
     // review page button
@@ -90,7 +77,7 @@
         android:id="@+id/reviewPageButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="35dp"
+        android:layout_marginBottom="86dp"
         app:floating_background_color="@color/colorPrimary"
         app:floating_left_icon="@drawable/review_icon"
         app:floating_title="Leave a Review"

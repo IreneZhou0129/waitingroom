@@ -10,23 +10,21 @@ import android.widget.EditText;
  */
 
 public abstract class Review_page extends AppCompatActivity {
-
     EditText title_review;
-
     EditText comments_review;
     Button b_submit_review;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.review_page);
     }
-
-    private void submitComments(){
+    /* Haven't used */
+    /*
+    public void submitComments(){
         comments_review = (EditText) findViewById(R.id.comment_bt);
         String comment_str = comments_review.getText().toString().trim();
 
-    }
+    } */
 
 }
