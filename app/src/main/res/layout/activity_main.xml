@@ -13,97 +13,43 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-<<<<<<< HEAD
-        android:layout_marginBottom="30dp"
-        android:layout_marginTop="200dp"
-=======
-<<<<<<< HEAD
-        android:layout_marginBottom="44dp"
->>>>>>> a764140abf52c4f1ddcb5021c9c3969bcc662628
-        android:text="Scan QR Code"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="181dp"
+        android:text="Scan QR code"
         app:layout_constraintBottom_toTopOf="@+id/peopleLeft"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-<<<<<<< HEAD
         app:layout_constraintTop_toTopOf="parent" />
-=======
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
-=======
-        android:layout_marginBottom="64dp"
-        android:text="Scan QR Code"
-        app:layout_constraintBottom_toTopOf="@+id/cancel"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/peopleLeft" />
->>>>>>> 1dc29bc5a3db68ca1b78ff1b8a32acf2244353f9
->>>>>>> a764140abf52c4f1ddcb5021c9c3969bcc662628
+
 
     <TextView
         android:id="@+id/waitTime"
         android:layout_width="0dp"
         android:layout_height="0dp"
-<<<<<<< HEAD
-        android:layout_marginTop="36dp"
         android:text="WAITING TIME: "
         android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="parent"
         app:layout_constraintEnd_toStartOf="parent"
-=======
-<<<<<<< HEAD
-        android:layout_marginBottom="411dp"
-        android:layout_marginTop="17dp"
-        android:text="WAITING TIME: "
-        android:textAlignment="center"
-        app:layout_constraintBottom_toTopOf="@+id/reviewPageButton"
-=======
-        android:layout_marginBottom="75dp"
-        android:layout_marginTop="16dp"
-        android:text="WAITING TIME: "
-        android:textAlignment="center"
-        app:layout_constraintBottom_toTopOf="@+id/peopleLeft"
->>>>>>> 1dc29bc5a3db68ca1b78ff1b8a32acf2244353f9
-        app:layout_constraintEnd_toEndOf="parent"
->>>>>>> a764140abf52c4f1ddcb5021c9c3969bcc662628
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/peopleLeft"
         android:layout_width="0dp"
-<<<<<<< HEAD
         android:layout_height="0dp"
-        android:layout_marginBottom="41dp"
-=======
-<<<<<<< HEAD
-        android:layout_height="112dp"
->>>>>>> a764140abf52c4f1ddcb5021c9c3969bcc662628
+        android:layout_marginBottom="60dp"
         android:text="People left: "
         android:textAlignment="center"
         app:layout_constraintBottom_toTopOf="@+id/cancel"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-<<<<<<< HEAD
         app:layout_constraintTop_toBottomOf="@+id/QR" />
-    />
-=======
-        app:layout_constraintTop_toTopOf="parent" />
-=======
-        android:layout_height="0dp"
-        android:layout_marginBottom="98dp"
-        android:text="People left: "
-        android:textAlignment="center"
-        app:layout_constraintBottom_toTopOf="@+id/QR"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/waitTime" />
->>>>>>> 1dc29bc5a3db68ca1b78ff1b8a32acf2244353f9
->>>>>>> a764140abf52c4f1ddcb5021c9c3969bcc662628
 
     <Button
         android:id="@+id/cancel"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-<<<<<<< HEAD
-        android:layout_marginBottom="51dp"
+        android:layout_marginBottom="41dp"
         android:text="cancel"
         app:layout_constraintBottom_toTopOf="@+id/reviewPageButton"
         app:layout_constraintEnd_toEndOf="parent"
@@ -120,42 +66,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cancel" />
-    android:layout_marginBottom="120dp"
-    android:layout_marginEnd="1dp"
-    android:layout_marginStart="1dp"
-    android:text="cancel "
-    app:layout_constraintBottom_toBottomOf="parent"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toBottomOf="@+id/QR" />
-=======
-<<<<<<< HEAD
-        android:layout_marginBottom="115dp"
-        android:text="cancel"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/scan_button" />
 
-    <Button
-        android:id="@+id/reviewPageButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
-        android:text="Leave a Review"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
-=======
-        android:layout_marginBottom="120dp"
-        android:layout_marginEnd="1dp"
-        android:layout_marginStart="1dp"
-        android:text="cancel  "
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/QR" />
->>>>>>> 1dc29bc5a3db68ca1b78ff1b8a32acf2244353f9
->>>>>>> a764140abf52c4f1ddcb5021c9c3969bcc662628
+
 </android.support.constraint.ConstraintLayout>
