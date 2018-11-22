@@ -17,4 +17,4 @@ Then, a message like "You are the 5th patient" will show on the screen
 SUBMIT button has the animation:sparkles:
 ![alt text](https://github.com/IreneZhou0129/waitingroom/blob/master/review_page.png)
 
-### Thanks for watching! It's my first hackthon, my teammates are best, I really enjoyed it! 
+ 
